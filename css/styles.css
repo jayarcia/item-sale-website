@@ -127,4 +127,57 @@ header .container .col-md-7 button {
   padding: 13vmin 5vmin 20vmin 20vmin;
   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.4);
 }
-/* 1:16 Mins */
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+  color: black;
+}
+.section-1 .row .col-md-6 .panel p {
+  font-size: 1.3em;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* ? SECOND SECTION **********************************/
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("../assets/mural.jpg");
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .content {
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  padding-top: 19vmin;
+  color: white;
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: #e5e5e5;
+  width: 17rem;
+  height: 12rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px 0px rgba(70, 236, 55, 0.349);
+}
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+  font-size: 3rem;
+  color: #061f04;
+}
+/* ! OTHER PRODUCTS SECTION ********************/
