@@ -1,0 +1,45 @@
+/* MEDIA QUERIES FOR IPAD AND IPAD PRO ******************************************************/
+
+@media only screen and (max-width: 768px) {
+  /* ? HEADER *************************************************************************/
+
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  /* * SORROUND SECTION  ****************************************************************/
+
+  .secion-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+
+  /*  ! FEATURES AND CONTROLS ***********************************************/
+
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+
+  .numbers .rect h1 {
+    font-size: 1.2rem;
+  }
+
+  .numbers .rect i {
+    font-size: 1rem;
+  }
+  .numbers .rect p {
+    font-size: 0.8rem;
+  }
+
+  /* ! OTHER PRODUCTS SECTION */
+
+  .purchase h1 {
+    font-size: 2.5rem;
+  }
+}
