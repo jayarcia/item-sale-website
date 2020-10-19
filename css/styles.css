@@ -268,7 +268,7 @@ header .container .col-md-7 button {
 }
 
 .section-4 .container p {
-  font-size: 4vmin;
+  font-size: 1.5vmin;
   padding-top: 1.5vmin;
 }
 
@@ -294,6 +294,43 @@ header .container .col-md-7 button {
 }
 
 .border-radius {
-  border-radius: 34px;
-  width: 60%;
+  border-radius: 70px;
+  width: 50%;
 }
+
+/* ! FOOTER */
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  /* removes horizontal scroll bar */
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  height: 4vmin;
+  border: none;
+}
+
+/* ? SOCIAL MEDIA ****************************/
+
+footer .column i {
+  color: #f6e22f;
+}
+
+/* selects 2nd 3rd and 4th icon */
+
+footer .column i + i {
+  padding: 0 0.4em;
+}
+
+/*  1:39 min */
