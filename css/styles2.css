@@ -1,7 +1,7 @@
 /* MEDIA QUERIES FOR IPAD AND IPAD PRO ******************************************************/
 
 @media only screen and (max-width: 768px) {
-  /* ? HEADER *************************************************************************/
+  /* ? HEADER SECTION *************************************************************************/
 
   header .navbar-brand {
     padding-left: 1rem;
@@ -33,13 +33,53 @@
   .numbers .rect i {
     font-size: 1rem;
   }
+
   .numbers .rect p {
     font-size: 0.8rem;
   }
 
-  /* ! OTHER PRODUCTS SECTION */
+  /* ! OTHER PRODUCTS SECTION *********************************************/
 
   .purchase h1 {
     font-size: 2.5rem;
+  }
+
+  .purchase .card img {
+    width: 9.5rem;
+    height: 8rem;
+    margin-left: 10px;
+  }
+
+  /* ? PLATFORM SECTION ****************************************************************/
+
+  .Section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+  }
+
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+
+  .section-3 .row .col-md-6 {
+    text-align: center !important;
+  }
+
+  .section-3 .desktop i {
+    font-size: 5vmin;
+    margin-top: 1.2vmin;
+  }
+
+  /* * SECTION-4 **********************************************/
+
+  .section-4 .team {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .section-4 .carousel-inner {
+    width: 24rem;
+    position: absolute;
   }
 }
